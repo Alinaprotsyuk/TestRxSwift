@@ -30,8 +30,6 @@
 		B957428424DCC03A00682213 /* WeatherDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B957428324DCC03A00682213 /* WeatherDetailsViewController.swift */; };
 		B957428724DCC14300682213 /* SegueHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = B957428624DCC14300682213 /* SegueHandler.swift */; };
 		B957428924DCC2FF00682213 /* WeatherDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B957428824DCC2FF00682213 /* WeatherDetailsViewModel.swift */; };
-		B957428C24DCC44D00682213 /* WeatherDetailsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B957428A24DCC44D00682213 /* WeatherDetailsTableViewCell.swift */; };
-		B957428D24DCC44D00682213 /* WeatherDetailsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B957428B24DCC44D00682213 /* WeatherDetailsTableViewCell.xib */; };
 		B957428F24DCC6B100682213 /* Double+convertKelvinToCelsium.swift in Sources */ = {isa = PBXBuildFile; fileRef = B957428E24DCC6B100682213 /* Double+convertKelvinToCelsium.swift */; };
 		B957429124DCC74A00682213 /* String+convertTempToString.swift in Sources */ = {isa = PBXBuildFile; fileRef = B957429024DCC74A00682213 /* String+convertTempToString.swift */; };
 		B97F2C1C24DB4C7E0095CEB7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B97F2C1B24DB4C7E0095CEB7 /* AppDelegate.swift */; };
@@ -67,8 +65,6 @@
 		B957428324DCC03A00682213 /* WeatherDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherDetailsViewController.swift; sourceTree = "<group>"; };
 		B957428624DCC14300682213 /* SegueHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegueHandler.swift; sourceTree = "<group>"; };
 		B957428824DCC2FF00682213 /* WeatherDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherDetailsViewModel.swift; sourceTree = "<group>"; };
-		B957428A24DCC44D00682213 /* WeatherDetailsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherDetailsTableViewCell.swift; sourceTree = "<group>"; };
-		B957428B24DCC44D00682213 /* WeatherDetailsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WeatherDetailsTableViewCell.xib; sourceTree = "<group>"; };
 		B957428E24DCC6B100682213 /* Double+convertKelvinToCelsium.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+convertKelvinToCelsium.swift"; sourceTree = "<group>"; };
 		B957429024DCC74A00682213 /* String+convertTempToString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+convertTempToString.swift"; sourceTree = "<group>"; };
 		B97F2C1824DB4C7E0095CEB7 /* TestRxSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestRxSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -144,8 +140,6 @@
 			children = (
 				B957427C24DCA73700682213 /* WeatherTableViewCell.swift */,
 				B957427D24DCA73700682213 /* WeatherTableViewCell.xib */,
-				B957428A24DCC44D00682213 /* WeatherDetailsTableViewCell.swift */,
-				B957428B24DCC44D00682213 /* WeatherDetailsTableViewCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -313,7 +307,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B957428D24DCC44D00682213 /* WeatherDetailsTableViewCell.xib in Resources */,
 				B957427F24DCA73700682213 /* WeatherTableViewCell.xib in Resources */,
 				B97F2C2824DB4C7F0095CEB7 /* LaunchScreen.storyboard in Resources */,
 				B97F2C2524DB4C7F0095CEB7 /* Assets.xcassets in Resources */,
@@ -340,7 +333,6 @@
 				B951AE3224DBE72000E35A00 /* Weather.swift in Sources */,
 				B97F2C1E24DB4C7E0095CEB7 /* SceneDelegate.swift in Sources */,
 				B957428424DCC03A00682213 /* WeatherDetailsViewController.swift in Sources */,
-				B957428C24DCC44D00682213 /* WeatherDetailsTableViewCell.swift in Sources */,
 				B951AE4324DBF0AE00E35A00 /* WeatherFetcher.swift in Sources */,
 				B951C06F24DD2A6800E805F6 /* City.swift in Sources */,
 				B957429124DCC74A00682213 /* String+convertTempToString.swift in Sources */,
